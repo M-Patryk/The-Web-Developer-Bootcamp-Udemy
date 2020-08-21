@@ -1,0 +1,13 @@
+/* font family */
+p{
+    font-family: Arial;
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 20px;
+}
+/* dzieki span mozemy zaznaczac wyrazy w hmtl i grupowac je w paragrafach */
+span{
+    font-size: 2em;
+}
