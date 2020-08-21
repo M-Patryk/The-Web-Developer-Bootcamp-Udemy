@@ -2,7 +2,9 @@
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /* Give the <body> element a background of #bdc3c7*/
-
+body{
+    background-color: grey;
+}
 
 /* Make the <h1> element #9b59b6*/
 
@@ -36,9 +38,14 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
-
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white;
+}
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-
+div em{
+    color: white;
+    font-size: 20px;
+}
 
 
 /*BONUS CHALLENGES*/
