@@ -4,10 +4,26 @@ p{
 }
 
 h1{
-    font-family: Georgia;
+    font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    text-decoration: line-through;
 }
 /* dzieki span mozemy zaznaczac wyrazy w hmtl i grupowac je w paragrafach */
 span{
     font-size: 2em;
+}
+
+#p3{
+    font-weight: bold;
+    line-height: 2;
+    text-align: right;
+}
+
+#p2{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 10em;
+}
+
+#p4{
+    text-decoration: underline;
 }
