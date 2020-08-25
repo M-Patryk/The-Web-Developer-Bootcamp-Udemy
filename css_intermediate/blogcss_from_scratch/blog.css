@@ -1,0 +1,39 @@
+.container{
+    border: 20px solid rgb(156, 152, 152);
+    width: 60%;
+    margin: 5% auto;
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quote{
+    border-left: 2px solid grey;
+    padding: 0.5%;
+}
+
+.date{
+    color: rgb(51, 103, 182);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+p{
+    padding: 0.5em 0;
+}
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
