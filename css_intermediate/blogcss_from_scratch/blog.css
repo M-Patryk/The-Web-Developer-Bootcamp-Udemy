@@ -1,4 +1,7 @@
-.container{
+body{
+    overflow: auto;
+}
+.container1{
     border: 20px solid rgb(156, 152, 152);
     width: 60%;
     margin: 5% auto;
@@ -16,7 +19,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-p{
+p .test{
     padding: 0.5em 0;
 }
 hr{
